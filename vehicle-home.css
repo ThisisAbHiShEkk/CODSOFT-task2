@@ -1,0 +1,149 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('vehicle.jpg');
+        background-size: cover;
+        background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+            background-position: center; 
+            background-repeat: no-repeat;
+            border-width: 190vh;
+            height: 200vh;
+        }
+    
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: whitesmoke;
+    font-size: xxx-large;
+    font-style: italic;
+}
+
+/* Navigation styles */
+header {
+    background-color: #333;
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+}
+
+.nav-links {
+    float:right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size:large;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    border-radius: 50px;
+}
+
+/* Hero section styles */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:whitesmoke;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+}
+
+.btn:hover {
+    background-color:grey;
+    color: white;
+}
+.footer {
+        background-color: #333; 
+        background-position: center; 
+        background-size: cover;
+    
+			color: #fff;
+			padding: 100px;
+			display: flex;
+			justify-content: space-between;
+			align-items: bottom;
+            margin-top: 600px;
+            width: 181vh;
+		}
+		.footer a {
+			color:white;
+			text-decoration: none;
+      min-height: 100vh;
+      
+      }
+      .fo{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: larger;
+  }
+
+  .fb{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: larger;
+
+  }
+  .insta{
+    margin-right: 30px; 
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: larger;
+  }
+
+  .yt{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: larger;
+  }
